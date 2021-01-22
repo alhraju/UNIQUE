@@ -1,0 +1,268 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-size: 14px;
+	line-height: 24px;
+	font-family: 'Maven Pro', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Libre Franklin', sans-serif;
+}
+a,a:hover{
+	font-family: 'Libre Franklin', sans-serif;
+	text-decoration: none;
+}
+/*header section code start*/
+.header-section{
+	width: 100%;
+	background: url("../images/hbg.png") center top no-repeat;
+	background-size: cover;
+}
+.header-section .navbar .navbar-brand img{
+	width: 100px;
+}
+.header-section .navbar-light .navbar-nav .nav-link.active{
+	font-size: 14px;
+	text-transform: capitalize;
+	font-weight: 500;
+	color: #511de5;
+	background: url("../images/hr.png") center bottom no-repeat;
+	background-size: contain;
+}
+.header-section .navbar-light .navbar-nav .nav-link{
+	color: #000;
+	font-size: 14px;
+	text-transform: capitalize;
+	font-weight: 500;
+	margin: 0 15px;
+}
+.header-section .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus{
+	color: #511de5;
+	background: url("../images/hr.png") center bottom no-repeat;
+	background-size: contain;
+}
+.header-section .navbar .btn-info{
+	padding: 8px 35px;
+	font-size: 14px;
+	font-weight: 500;
+	color: #fff;
+	border: none;
+	border-radius: 35px;
+	background: linear-gradient(to right, #511de5, #0c8bfb);
+	margin-left: 10px;
+}
+.header-section .navbar .btn-info:hover, .header-section .navbar .btn-info:focus{
+	color: #fff;
+	background: linear-gradient(to right, #0c8bfb, #511de5);
+}
+.header-section .banner{
+	width: 100%;
+	padding: 170px 0;
+}
+.header-section .banner .inner-banner{
+	padding: 100px 0;
+	text-align: right;
+}
+.header-section .banner .inner-banner h1{
+	font-size: 52px;
+	font-weight: 800;
+	line-height: 58px;
+}
+.header-section .banner .inner-banner h1 span{
+	color: #511de5;
+}
+.header-section .banner .inner-banner .btn-primary{
+	padding: 8px 35px;
+	font-size: 14px;
+	font-weight: 500;
+	color: #000;
+	border: 1px solid #f2f2f2;
+	border-radius: 35px;
+	background: #f2f2f2;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	margin-top: 25px;
+}
+.header-section .banner .inner-banner .btn-primary:hover, .header-section .banner .inner-banner .btn-primary:focus{
+	color: #fff;
+	border: 1px solid #511de5;
+	background: #511de5;
+}
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+ /*************code start***************/
+  .header-section .navbar-light .navbar-nav .nav-link.active{
+		font-size: 14px;
+		text-transform: capitalize;
+		font-weight: 500;
+		color: #511de5;
+		background: url("../images/hr.png") left bottom no-repeat;
+		background-size: auto;
+	}
+	.header-section .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus{
+		color: #511de5;
+		background: url("../images/hr.png") left bottom no-repeat;
+		background-size: auto;
+	}
+	.header-section .banner .inner-banner h1{
+		font-size: 30px;
+		font-weight: 800;
+		line-height: 38px;
+	}
+ /*************code end***************/
+}
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+ /*************code start***************/
+  .header-section .navbar-light .navbar-nav .nav-link.active{
+		font-size: 14px;
+		text-transform: capitalize;
+		font-weight: 500;
+		color: #511de5;
+		background: url("../images/hr.png") left bottom no-repeat;
+		background-size: auto;
+	}
+	.header-section .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus{
+		color: #511de5;
+		background: url("../images/hr.png") left bottom no-repeat;
+		background-size: auto;
+	}
+	.header-section .banner .inner-banner h1{
+		font-size: 36px;
+		font-weight: 800;
+		line-height: 42px;
+	}
+
+ /*************code end***************/ 
+}
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px){
+ /*************code start***************/
+  .header-section .navbar-light .navbar-nav .nav-link.active{
+		font-size: 14px;
+		text-transform: capitalize;
+		font-weight: 500;
+		color: #511de5;
+		background: url("../images/hr.png") left bottom no-repeat;
+		background-size: auto;
+	}
+	.header-section .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus{
+		color: #511de5;
+		background: url("../images/hr.png") left bottom no-repeat;
+		background-size: auto;
+	}
+	.header-section .banner .inner-banner h1{
+		font-size: 42px;
+		font-weight: 800;
+		line-height: 50px;
+	}
+ /*************code end***************/ 
+}
+
+/*header section code end*/
+
+/*highlight section code start*/
+.highlight{
+	width: 100%;
+	background: url("../images/hlbg.png") center top no-repeat;
+	background-size: cover;
+	padding: 10px 0;
+}
+.highlight .inner-highlight{
+	width: 100%;
+	position: relative;
+}
+.highlight .inner-highlight img{
+	position: absolute;
+	width: 250px;
+	top: -70px;
+	left: 0;
+}
+.highlight .inner-highlight h2{
+	font-size: 26px;
+	font-weight: 700;
+	line-height: 36px;
+	color: #fff;
+	text-align: center;
+}
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+ /*************code start***************/
+  .highlight .inner-highlight img{
+		position: absolute;
+		width: 80px;
+		top: -35px;
+		left: 0;
+	}
+  .highlight .inner-highlight h2{
+		font-size: 14px;
+		font-weight: 700;
+		line-height: 24px;
+		color: #fff;
+		text-align: center;
+	}
+ /*************code end***************/
+}
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+ /*************code start***************/
+  .highlight .inner-highlight img{
+		position: absolute;
+		width: 100px;
+		top: -45px;
+		left: 0;
+	}
+  .highlight .inner-highlight h2{
+		font-size: 16px;
+		font-weight: 700;
+		line-height: 26px;
+		color: #fff;
+		text-align: center;
+	}
+ /*************code end***************/ 
+}
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px){
+ /*************code start***************/
+  .highlight .inner-highlight img{
+		position: absolute;
+		width: 150px;
+		top: -45px;
+		left: 0;
+	}
+  .highlight .inner-highlight h2{
+		font-size: 20px;
+		font-weight: 700;
+		line-height: 30px;
+		color: #fff;
+		text-align: center;
+	}
+ /*************code end***************/ 
+}
+/*highlight section code end*/
